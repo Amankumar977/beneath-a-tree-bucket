@@ -44,13 +44,13 @@ This project provides a backend system for uploading images, storing them in an 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/image-upload-retrieval.git
+   git clone https://github.com/your-username/beneath-a-tree-bucket
    ```
 
 2. Install dependencies:
 
    ```bash
-   cd image-upload-retrieval
+   cd beneath-a-tree-bucket
    npm install
    ```
 
@@ -75,7 +75,7 @@ This project provides a backend system for uploading images, storing them in an 
 4. Start the server:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## Usage
