@@ -1,5 +1,3 @@
-Certainly! Below is a detailed README file based on the provided code snippets:
-
 ---
 
 # Image Upload and Retrieval System
@@ -102,10 +100,6 @@ This project provides a backend system for uploading images, storing them in an 
 
 - Description: Retrieves all uploaded images with their signed URLs.
 - Response: JSON array containing objects with `imageName` and `imageUrl` fields for each image.
-
-## Contributing
-
-Contributions are welcome! Please follow the guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## License
 
