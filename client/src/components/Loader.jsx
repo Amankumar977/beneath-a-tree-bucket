@@ -9,6 +9,7 @@ const Loader = () => {
       }}>
       <div style={{ borderRadius: "50px" }}>
         <Container>
+          {/* Segment component to display the uploading message */}
           <Segment
             size="massive"
             style={{
