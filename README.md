@@ -101,9 +101,6 @@ This project provides a backend system for uploading images, storing them in an 
 - Description: Retrieves all uploaded images with their signed URLs.
 - Response: JSON array containing objects with `imageName` and `imageUrl` fields for each image.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
