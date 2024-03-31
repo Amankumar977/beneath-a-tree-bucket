@@ -94,7 +94,7 @@ const AllImages = () => {
             <div className="flex mt-8 flex-wrap gap-4 mx-24 min-h-screen ">
               {!Uploading &&
                 allPosts.map(({ _id, imageUrl }) => (
-                  <div className="w-64 h-40 " key={_id}>
+                  <div className="w-[18.5rem]  " key={_id}>
                     <img src={imageUrl} alt="image" className="rounded-md" />
                   </div>
                 ))}

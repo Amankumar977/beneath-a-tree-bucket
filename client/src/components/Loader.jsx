@@ -11,7 +11,7 @@ const Loader = () => {
         <Container>
           {/* Segment component to display the uploading message */}
           <Segment
-            size="massive"
+            size="small"
             style={{
               borderRadius: "50px",
               padding: "8px",
