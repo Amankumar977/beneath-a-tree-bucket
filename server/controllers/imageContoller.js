@@ -90,7 +90,7 @@ export async function handleGetAllImages(req, res) {
       // Generate a signed URL for accessing the image via CloudFront
       const signedImage = getSignedUrl({
         url: "https://d3auwuys9b7303.cloudfront.net/" + post.imageName, // CloudFront URL for the image
-        dateLessThan: new Date(Date.now() + 1000 * 60 * 5), // URL expiration time (5 minutes from now)
+        dateLessThan: new Date(Date.now() + 1000 * 30), // URL expiration time (5 minutes from now)
         privateKey: process.env.CLOUDFRONT_PRIVATE_KEY, // Private key for signing the URL
         keyPairId: process.env.CLOUDFRONT_KEY_PAIR_ID, // Key pair ID for CloudFront
       });
